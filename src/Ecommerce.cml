@@ -9,6 +9,9 @@ ContextMap BookEcommerceMap{
     contains CatalogProductosContext
     contains BlogContext
 
+    /* Cooperación */
+    OrdenesContext [P]<->[P] EnviosContext
+    OrdenesContext [P]<->[P] GestionClientesContext
 
 }
 
