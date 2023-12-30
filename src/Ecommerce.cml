@@ -1,0 +1,51 @@
+ContextMap BookEcommerceMap{
+    contains OrdenesContext
+    contains EnviosContext
+    contains GestionClientesContext
+    contains PagosContext
+    contains AutorizacionAutenticacionContext
+    contains UbicacionTiendasContext
+    contains ResenasContext
+    contains CatalogProductosContext
+    contains BlogContext
+
+
+}
+
+BoundedContext OrdenesContext {
+    
+}
+
+
+BoundedContext EnviosContext {
+    
+    
+}
+
+BoundedContext GestionClientesContext {
+    
+}
+
+BoundedContext PagosContext {
+    
+}
+
+BoundedContext AutorizacionAutenticacionContext {
+    
+}
+
+BoundedContext UbicacionTiendasContext {
+    
+}
+
+BoundedContext ResenasContext {
+    
+}
+
+BoundedContext CatalogProductosContext {
+    
+}
+
+BoundedContext BlogContext {
+    
+}
