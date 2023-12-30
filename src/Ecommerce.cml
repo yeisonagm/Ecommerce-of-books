@@ -13,6 +13,13 @@ ContextMap BookEcommerceMap{
     OrdenesContext [P]<->[P] EnviosContext
     OrdenesContext [P]<->[P] GestionClientesContext
 
+    /* Conformista */
+    GestionClientesContext [CF]<-[PL] AutorizacionAutenticacionContext
+
+    /* Anti-corruption layer */
+    UbicacionTiendasContext [D,ACL]<-[U] EnviosContext
+
+
 }
 
 BoundedContext OrdenesContext {
