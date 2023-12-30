@@ -19,6 +19,10 @@ ContextMap BookEcommerceMap{
     /* Anti-corruption layer */
     UbicacionTiendasContext [D,ACL]<-[U] EnviosContext
 
+     /* Open-Host service */
+    CatalogProductosContext [U, OHS]->[D] OrdenesContext
+
+
 
 }
 
