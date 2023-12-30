@@ -26,8 +26,9 @@ ContextMap BookEcommerceMap{
      /* Customer - Supplier */
     BlogContext [D]<-[U] AutorizacionAutenticacionContext
 
-
-
+    /* Customer - Supplier */
+    ResenasContext [D]<-[U] AutorizacionAutenticacionContext
+    
 }
 
 BoundedContext OrdenesContext {
