@@ -22,6 +22,9 @@ ContextMap BookEcommerceMap{
      /* Open-Host service */
     CatalogProductosContext [U, OHS]->[D] OrdenesContext
 
+     /* Customer - Supplier */
+    BlogContext [D]<-[U] AutorizacionAutenticacionContext
+
 
 
 }
