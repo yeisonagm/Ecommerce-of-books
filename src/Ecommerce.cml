@@ -12,6 +12,7 @@ ContextMap BookEcommerceMap{
     /* Cooperación */
     OrdenesContext [P]<->[P] EnviosContext
     OrdenesContext [P]<->[P] GestionClientesContext
+    OrdenesContext [P]<->[P] PagosContext
 
     /* Conformista */
     GestionClientesContext [CF]<-[PL] AutorizacionAutenticacionContext
